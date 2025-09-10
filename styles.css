@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+:root {
+    --color-white: hsl(0, 0%, 100%);
+    --color-slate-300: hsl(212, 45%, 89%);
+    --color-slate-500: hsl(216, 15%, 48%);
+    --color-slate-900: hsl(218, 44%, 22%);
+    --font-text-preset-1: 22px;
+    --font-text-preset-2: 15px;
+    --font-family: Outfit;
+    --font-weight: 400;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-slate-300);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh
+}
+
+.content {
+    width: 320px;
+    height: 499px;
+    padding: 16px 16px 40px 16px;
+    background-color: var(--color-white);
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 24px;
+}
+
+#QRImage {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    padding: 0 16px 0 16px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+h1 {
+    font-size: var(--font-text-preset-1);
+    font-family: var(--font-family), sans-serif;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+p {
+    font-size: var(--font-text-preset-2);
+    font-family: var(--font-family), sans-serif;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
