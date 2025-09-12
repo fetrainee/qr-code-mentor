@@ -69,6 +69,6 @@ p {
     color: var(--color-slate-500);
     font-weight: 400;
     line-height: 140%;
-    letter-spacing: 0.2px;
+    letter-spacing: 0.0125rem;
     text-align: center;
 }
