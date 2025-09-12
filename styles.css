@@ -5,8 +5,8 @@
     --color-slate-300: hsl(212, 45%, 89%);
     --color-slate-500: hsl(216, 15%, 48%);
     --color-slate-900: hsl(218, 44%, 22%);
-    --font-text-preset-1: 22px;
-    --font-text-preset-2: 15px;
+    --font-text-preset-1: 1.375rem;
+    --font-text-preset-2: 0.9375rem;
     --font-family: Outfit;
     --font-weight: 400;
 }
