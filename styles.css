@@ -25,7 +25,7 @@ body {
     min-height: 100vh
 }
 
-.content {
+main {
     width: 320px;
     height: 499px;
     padding: 16px 16px 40px 16px;
@@ -45,7 +45,7 @@ body {
 
 }
 
-.text {
+section {
     display: flex;
     flex-direction: column;
     padding: 0 16px 0 16px;
