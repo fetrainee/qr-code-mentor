@@ -26,16 +26,15 @@ body {
 }
 
 main {
-    width: 320px;
-    height: 499px;
-    padding: 16px 16px 40px 16px;
+    width: 20rem;
+    padding: 1rem 1rem 2.5rem 1rem;
     background-color: var(--color-white);
-    border-radius: 20px;
+    border-radius: 1.25rem;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
-    gap: 24px;
+    gap: 1.5rem;
 }
 
 .qr-Image {
@@ -48,10 +47,10 @@ main {
 section {
     display: flex;
     flex-direction: column;
-    padding: 0 16px 0 16px;
+    padding: 0 1rem;
     justify-content: center;
     align-items: flex-start;
-    gap: 16px;
+    gap: 1rem;
 }
 
 h1 {
